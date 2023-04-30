@@ -1,0 +1,27 @@
+{
+  "name": "@burslf/tt-contracts",
+  "version": "0.1.27",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burslf/ttcontracts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burslf/ttcontracts/issues"
+  },
+  "homepage": "https://github.com/burslf/ttcontracts#readme",
+  "files": [
+    "/dist"
+  ],
+  "dependencies": {
+    "ethers": "^6.3.0"
+  }
+}
