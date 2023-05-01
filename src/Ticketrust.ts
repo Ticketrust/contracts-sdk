@@ -154,7 +154,7 @@ class TicketrustInstance {
 
         const callResult = await this.contract.uri(...functionArgs)
 
-        return callResult[0]
+        return callResult
     }
 
     async releasable(eventId: number, payee: string) {

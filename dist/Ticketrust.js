@@ -108,7 +108,7 @@ class TicketrustInstance {
     async offchainURI(eventId) {
         const functionArgs = [eventId];
         const callResult = await this.contract.uri(...functionArgs);
-        return callResult[0];
+        return callResult;
     }
     async releasable(eventId, payee) {
         const functionArgs = [eventId, payee];
