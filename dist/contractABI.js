@@ -618,6 +618,19 @@ exports.ticketrustABI = `[
     "type": "function"
   },
   {
+    "inputs": [],
+    "name": "getAdditionalETHBalance",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
     "inputs": [
       {
         "internalType": "uint256",
@@ -1482,6 +1495,19 @@ exports.ticketrustABI = `[
       }
     ],
     "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_committee",
+        "type": "address"
+      }
+    ],
+    "name": "withdrawTicketrustETH",
+    "outputs": [],
+    "stateMutability": "nonpayable",
     "type": "function"
   },
   {
