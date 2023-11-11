@@ -1,6 +1,6 @@
 {
-  "name": "@burslf/tt-contracts",
-  "version": "0.1.31",
+  "name": "@ticketrust/contracts-sdk",
+  "version": "0.0.2",
   "description": "",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/burslf/ttcontracts.git"
+    "url": "git+https://github.com/ticketrust/contracts-sdk.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/burslf/ttcontracts/issues"
+    "url": "https://github.com/ticketrust/contracts-sdk/issues"
   },
-  "homepage": "https://github.com/burslf/ttcontracts#readme",
+  "homepage": "https://github.com/ticketrust/contracts-sdk#readme",
   "files": [
     "/dist"
   ],
